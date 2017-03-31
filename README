@@ -1,0 +1,17 @@
+Tom Grossman
+CS4760 - Operating Systems
+Project 2 - Shared Memory
+03/14/17
+Copyright © 2017 Tom Grossman. All rights reserved.
+
+Usage Commands:
+	Compile:
+		To compile: make
+		To remove: make clean
+	Execution:
+		./master <runs with terminationTime = 20, slaveProcesses = 5, maxWrites = 3, outputFile = test.out>
+		./master -h <prints help>
+		./master -l [string filename] <changes export logfile name>
+		./master -s [int x] <spawn x slave processes>
+		./master -i [int x] <change number of slave process writes to file>
+		./master -t [int x] <change termination time limit>
